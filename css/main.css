@@ -41,10 +41,10 @@ li {
 }
 
 .nav {
-	margin-top: 57px;
+	/*margin-top: 11px;
 	margin-left: -7px;
 	height: 33px;
-	background-color: #585b5b;
+	background-color: #585b5b;*/
 }
 
 .navbar-nav li a {
@@ -64,10 +64,6 @@ li {
 	display: none;
 }
 
-#subheader {
-	position: relative;
-	top: -75px;
-}
 
 #alpha {
 	z-index:9999;
@@ -89,7 +85,7 @@ li {
 }
 
 #main .btn {
-	margin-left: 50px;
+	/*margin-left: 50px;*/
 	margin-top: 20px;
 }
 
@@ -99,7 +95,7 @@ li {
 
 #main {
 	position: relative;
-	top: -125px;
+	/*top: -125px;*/
 }
 
 table img {
@@ -119,7 +115,7 @@ table .lesson-name {
 
 #recent, #top-learners {
 	position: relative;
-	top: -125px;
+	/*top: -125px;*/
 }
 
 #recent-content {
@@ -140,7 +136,7 @@ table .lesson-name {
 
 #subheader {
 	position: relative;
-	top: -150px;
+	/*top: -150px;*/
 	left: -12px;
 }
 
@@ -148,7 +144,7 @@ table .lesson-name {
 	color: #FFF;
 	font-weight: 700;
 	position: relative;
-	top: -175px;
+	top: -108px;
 	left: 50px;
 	width: 400px;
 }
@@ -296,7 +292,7 @@ header ul, footer ul, #sidemenu ul{
 
 header, #bottom, footer{
 	position:relative;
-	top: -75px;
+/*	top: -75px;*/
 }
 
 .bottom_links a:hover {
@@ -327,11 +323,12 @@ footer a:hover {
 
 .bottom_links {
 	height: 150px;
-	width: 30%;
+	/*width: 30%;*/
 	padding: 20px;
 	float: left;
 	background-color: #74bbd4;
 	border-radius: 15px;
+max-width:300px;
 }
 
 .bottom_links_spacer {
@@ -441,7 +438,7 @@ footer a:hover {
 
 .teach-box {
 	border: solid 1px;
-	height: 775px;
+	height: 706px;
 	text-align: center;
 }
 
@@ -474,7 +471,7 @@ footer a:hover {
 
 #about section {
 	position: relative;
-	top: -125px;
+	top: -77px;
 }
 /* End About */
 
@@ -485,6 +482,19 @@ footer a:hover {
 
 #index .bottom_links:hover a {
 	color: #0F6095;
+}
+#main-video {
+	position: relative !important;
+	padding-bottom: 56.25% !important; /* 16:9 */
+	padding-top: 25px !important;
+	height: 0 !important;
+}
+#main-video iframe {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
 }
 /* End Index */
 

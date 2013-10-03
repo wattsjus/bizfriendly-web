@@ -1,7 +1,9 @@
 <link rel="icon" type="image/x-icon" href="ico/favicon.ico">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
 <link href="css/animate.min.css" rel="stylesheet">
 <script src="js/config.js"></script>
 <script src="js/vendor/jquery.cookie.js"></script>
@@ -11,20 +13,45 @@
     <script src="js/vendor/jquery.editable.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/BfUser.js"></script>
+
 <div class="row">
-	<div id="alpha" class="alert alert-info col-offset-3 col-lg-6">BizFriend.ly is currently in an alpha stage. Try it out and <a href="https://docs.google.com/a/codeforamerica.org/forms/d/1hHXzRUBGmTtWPxkjHJ5aryPCkGpxcZq0AWM_2uae8Pc/viewform">share your feedback</a>! Thanks for sharing your thoughts to help us make BizFriend.ly better.</div>
+	<div id="alpha" class="alert alert-info col-md-offset-3 col-md-6">BizFriend.ly is currently in an alpha stage. Try it out and <a href="https://docs.google.com/a/codeforamerica.org/forms/d/1hHXzRUBGmTtWPxkjHJ5aryPCkGpxcZq0AWM_2uae8Pc/viewform">share your feedback</a>! Thanks for sharing your thoughts to help us make BizFriend.ly better.</div>
 </div>
-<header class="navbar navbar-static-top row">
-	<div id="signinlinks" class="pull-right">
-		<a id="signInLink" href="signin.html">Sign In</a>
-		<a id="signUpLink" href="signup.html" >| Sign Up</a>
-		<a id="bfUserName" href="#"></a>
-		<a id="signOutLink" href="#">| Sign Out</a>
-	</div>
-	<a class="navbar-brand" href="."><img src="img/bizfriendly_weblogo_alpha.png"></a>
-	<ul class="nav navbar-nav col-lg-10 col-sm-7">
-		<li class="col-lg-2 col-sm-2 col-offset-1"><a href="learn.html">Learn</a></li>
-		<li class="col-lg-2 col-sm-2 col-offset-1"><a href="teach.html">Teach</a></li>
-		<li class="col-lg-2 col-sm-2 col-offset-1"><a href="connect.html">Connect</a></li>
-	</ul>
+      <header class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+<a class="navbar-brand" href="."><img src="img/bizfriendly_weblogo_alpha.png"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="learn.html">Learn</a></li>
+              <li><a href="teach.html">Teach</a></li>
+<li>
+              <!--li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li-->
+<li><a href="connect.html">Connect</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a id="signInLink" href="signin.html">Sign In</a></li>
+<li><a id="signUpLink" href="signup.html">Sign Up</a></li>
+              <li><a id="bfUserName" href="#"></a></li>
+              <li><a id="signOutLink" href="#">| Sign Out</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
 </header>
